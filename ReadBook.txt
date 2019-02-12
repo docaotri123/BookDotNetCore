@@ -2,3 +2,4 @@
 29/1 Chapter 3: Understanding MVC
 30/1 chapter 3: Lambda expression
 11/2 end chapter 5
+12/2 chappter 6 Bundling and Minifying
