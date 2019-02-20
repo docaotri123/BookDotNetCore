@@ -53,7 +53,7 @@ namespace AspNetCore
             WriteLiteral("<!DOCTYPE html>\r\n<html>\r\n");
             EndContext();
             BeginContext(100, 201, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9d1975dfa07b471eb7b3e5a7b8782fb4", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6b340ed91cc443938b3784411ff7a58a", async() => {
                 BeginContext(106, 188, true);
                 WriteLiteral("\r\n    <meta name=\"viewport\" content=\"width=device-width\" />\r\n    <title>Working with Visual Studio</title>\r\n    <link rel=\"stylesheet\" href=\"/lib/bootstrap/dist/css/bootstrap.min.css\" />\r\n");
                 EndContext();
@@ -73,7 +73,7 @@ namespace AspNetCore
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(303, 608, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2372bde3ff1a4804a292443d331b9b36", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "aa1e9ca6eac64f68a5c0ccdcce447d11", async() => {
                 BeginContext(321, 203, true);
                 WriteLiteral("\r\n    <h3 class=\"text-center\">Products</h3>\r\n    <table class=\"table table-bordered table-striped\">\r\n        <thead>\r\n            <tr><td>Name</td><td>Price</td></tr>\r\n        </thead>\r\n        <tbody>\r\n");
                 EndContext();
@@ -115,7 +115,7 @@ namespace AspNetCore
                 WriteLiteral("        </tbody>\r\n    </table>\r\n    <div class=\"text-center\">\r\n        ");
                 EndContext();
                 BeginContext(796, 94, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f96ff498fea24ff9984c28a9935acc6b", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "47c8c2fe1cf6461492dbefb4d9472c5d", async() => {
                     BeginContext(847, 39, true);
                     WriteLiteral("\r\n            Add New Product\r\n        ");
                     EndContext();
