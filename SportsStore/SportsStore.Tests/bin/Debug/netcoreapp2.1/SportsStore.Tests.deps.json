@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "149fec52c2177fcb5deff07d6387d49ed2431900"
+    "signature": "ad39c21552c5a036e1b75bfbd8462155c5cbe30f"
   },
   "compilationOptions": {},
   "targets": {
@@ -124,7 +124,7 @@
           "System.Diagnostics.Process": "4.1.0",
           "System.Diagnostics.TextWriterTraceListener": "4.0.0",
           "System.Diagnostics.TraceSource": "4.3.0",
-          "System.Runtime.Loader": "4.0.0",
+          "System.Runtime.Loader": "4.3.0",
           "System.Runtime.Serialization.Json": "4.0.2",
           "System.Xml.XPath.XmlDocument": "4.0.1"
         },
@@ -452,6 +452,11 @@
           }
         }
       },
+      "Microsoft.Web.LibraryManager.Build/1.0.172": {
+        "dependencies": {
+          "System.Runtime.Loader": "4.3.0"
+        }
+      },
       "Microsoft.Win32.Primitives/4.0.1": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.1.0",
@@ -634,7 +639,7 @@
       },
       "System.Linq.Parallel/4.3.0": {},
       "System.Linq.Queryable/4.3.0": {},
-      "System.Runtime.Loader/4.0.0": {},
+      "System.Runtime.Loader/4.3.0": {},
       "System.Runtime.Serialization.Json/4.0.2": {},
       "System.Threading.ThreadPool/4.0.10": {},
       "System.Xml.XPath.XmlDocument/4.0.1": {
@@ -705,8 +710,8 @@
       "SportsStore/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "2.1.4",
-          "Microsoft.NETCore.App": "2.1.1",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.1.1"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.1.1",
+          "Microsoft.Web.LibraryManager.Build": "1.0.172"
         },
         "runtime": {
           "SportsStore.dll": {}
@@ -888,6 +893,13 @@
       "path": "microsoft.visualstudio.web.codegenerators.mvc/2.1.1",
       "hashPath": "microsoft.visualstudio.web.codegenerators.mvc.2.1.1.nupkg.sha512"
     },
+    "Microsoft.Web.LibraryManager.Build/1.0.172": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qHBbfIjSxS/0AdEqyifxAMpAHE8TMpMvvU+EpEIB+9ZbOI9L09G96GJLcKTi3sbo6mYNfeWpZn5lCPjqCn1l7g==",
+      "path": "microsoft.web.librarymanager.build/1.0.172",
+      "hashPath": "microsoft.web.librarymanager.build.1.0.172.nupkg.sha512"
+    },
     "Microsoft.Win32.Primitives/4.0.1": {
       "type": "package",
       "serviceable": true,
@@ -933,7 +945,7 @@
     "System.ComponentModel/4.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-VyGn1jGRZVfxnh8EdvDCi71v3bMXrsu8aYJOwoV7SNDLVhiEqwP86pPMyRGsDsxhXAm2b3o9OIqeETfN5qfezw==",
+      "sha512": "sha512-vzIKyqrNvbxTrWEixPehlz7MxTNpXxtULo2DskaNpYlCPaJfEH9d2Zh03HizMWlCEkGcb6YuEzHF0Opd3Ga/Cg==",
       "path": "system.componentmodel/4.3.0",
       "hashPath": "system.componentmodel.4.3.0.nupkg.sha512"
     },
@@ -947,14 +959,14 @@
     "System.ComponentModel.Primitives/4.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-j8GUkCpM8V4d4vhLIIoBLGey2Z5bCkMVNjEZseyAlm4n5arcsJOeI3zkUP+zvZgzsbLTYh4lYeP/ZD/gdIAPrw==",
+      "sha512": "sha512-PYxDapiwKjIOGAMpyCbN9vTqzirwejZWbUqSYrmim0AW8Ug+9aV9rIwO9wPWdkp68O+w/M/Dly3RAfMn8qx7yA==",
       "path": "system.componentmodel.primitives/4.3.0",
       "hashPath": "system.componentmodel.primitives.4.3.0.nupkg.sha512"
     },
     "System.ComponentModel.TypeConverter/4.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-16pQ6P+EdhcXzPiEK4kbA953Fu0MNG2ovxTZU81/qsCd1zPRsKc3uif5NgvllCY598k6bI0KUyKW8fanlfaDQg==",
+      "sha512": "sha512-PPrvAGNkLc4cwQ/gghP1BUjYGGtwBCBUGrEfVjL2ZKWsLnwhBzTBmu3BFTXt2PHKy6GS00662LFNTT/3Gas78w==",
       "path": "system.componentmodel.typeconverter/4.3.0",
       "hashPath": "system.componentmodel.typeconverter.4.3.0.nupkg.sha512"
     },
@@ -1010,7 +1022,7 @@
     "System.Diagnostics.Process/4.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-mpVZ5bnlSs3tTeJ6jYyDJEIa6tavhAd88lxq1zbYhkkCu0Pno2+gHXcvZcoygq2d8JxW3gojXqNJMTAshduqZA==",
+      "sha512": "sha512-PTzhSg7c8fumfNYQl9MGEeu/u+wHSwWS+xM8MszUk+ddrFLQQ6P1cGkMTsQkldnXocMEc05ahZdVLF2zqXPeDg==",
       "path": "system.diagnostics.process/4.1.0",
       "hashPath": "system.diagnostics.process.4.1.0.nupkg.sha512"
     },
@@ -1049,12 +1061,12 @@
       "path": "system.linq.queryable/4.3.0",
       "hashPath": "system.linq.queryable.4.3.0.nupkg.sha512"
     },
-    "System.Runtime.Loader/4.0.0": {
+    "System.Runtime.Loader/4.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-4UN78GOVU/mbDFcXkEWtetJT/sJ0yic2gGk1HSlSpWI0TDf421xnrZTDZnwNBapk1GQeYN7U1lTj/aQB1by6ow==",
-      "path": "system.runtime.loader/4.0.0",
-      "hashPath": "system.runtime.loader.4.0.0.nupkg.sha512"
+      "sha512": "sha512-DHMaRn8D8YCK2GG2pw+UzNxn/OHVfaWx7OTLBD/hPegHZZgcZh3H6seWegrC4BYwsfuGrywIuT+MQs+rPqRLTQ==",
+      "path": "system.runtime.loader/4.3.0",
+      "hashPath": "system.runtime.loader.4.3.0.nupkg.sha512"
     },
     "System.Runtime.Serialization.Json/4.0.2": {
       "type": "package",
@@ -1066,7 +1078,7 @@
     "System.Threading.ThreadPool/4.0.10": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-IMXgB5Vf/5Qw1kpoVgJMOvUO1l32aC+qC3OaIZjWJOjvcxuxNWOK2ZTWWYXfij22NHxT2j1yWX5vlAeQWld9vA==",
+      "sha512": "sha512-TWkrdjI3rQ1UuXCuq+/7EvgBVb9tIgV/Ei6b0sa9F6YomEWFUIqeFXvnWmkNQ8Y8RL2AoRSzx2GDF9DYLj0Skg==",
       "path": "system.threading.threadpool/4.0.10",
       "hashPath": "system.threading.threadpool.4.0.10.nupkg.sha512"
     },
