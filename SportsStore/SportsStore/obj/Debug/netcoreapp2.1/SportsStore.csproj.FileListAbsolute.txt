@@ -51,3 +51,5 @@ H:\Tri\DotNet\BookDotNetCore\SportsStore\SportsStore\obj\Debug\netcoreapp2.1\Spo
 H:\Tri\DotNet\BookDotNetCore\SportsStore\SportsStore\obj\Debug\netcoreapp2.1\SportsStore.dll
 H:\Tri\DotNet\BookDotNetCore\SportsStore\SportsStore\obj\Debug\netcoreapp2.1\SportsStore.pdb
 H:\Tri\DotNet\BookDotNetCore\SportsStore\SportsStore\obj\Debug\netcoreapp2.1\SportsStore.csproj.CopyComplete
+D:\TriDC\DotNetCore\BookDotNetCore\SportsStore\SportsStore\obj\Debug\netcoreapp2.1\Razor\Views\Shared\ProductSummary.g.cshtml.cs
+D:\TriDC\DotNetCore\BookDotNetCore\SportsStore\SportsStore\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\NavigationMenu\Default.g.cshtml.cs
